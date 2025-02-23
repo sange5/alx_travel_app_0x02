@@ -125,3 +125,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 from decouple import config
 
 CHAPA_SECRET_KEY = config('CHAPA_SECRET_KEY')
+
+CELERY_BROKER_URL = 'amqp://sange:12345678@localhost//'
+CELERY_RESULT_BACKEND = 'rpc://'
