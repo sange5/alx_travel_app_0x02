@@ -1,2 +1,0 @@
-Milestone 2: Database Modeling and Data Seeding in Django
-
